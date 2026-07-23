@@ -1,8 +1,25 @@
 aid: antiva-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/antiva-biosciences.png
 name: Antiva Biosciences
-description: Antiva Biosciences is a company surfaced as a portfolio company of canaan-partners, gv and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Antiva Biosciences is a clinical-stage biopharmaceutical company developing topical
+  therapeutics that target oncogenic human papillomavirus (HPV) infections and the precancerous
+  cervical lesions they cause, aiming to stop cervical cancer before it starts with at-home,
+  non-surgical treatment. Its lead candidate, ABI-2280, is a topical antiviral in Phase 1b/2
+  clinical development for high-risk cervical HPV infection, and the company frames its work in
+  support of the World Health Organization's global Cervical Cancer Elimination Initiative. Antiva
+  is backed by venture investors including Canaan Partners and GV, and is tracked in the API
+  Evangelist network as a company profile awaiting further enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/antiva-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +33,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Healthcare
+- Life Sciences
+- Oncology
+- HPV
+- Women's Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/antiva-biosciences-domain-security.yml
 - type: Website
-  url: http://antivabio.com
+  url: https://antivabio.com
+- type: Blog
+  url: https://antivabio.com/news-main.php
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

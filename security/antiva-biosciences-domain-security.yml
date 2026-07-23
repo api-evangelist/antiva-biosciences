@@ -1,0 +1,15 @@
+generated: '2026-07-17'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: antivabio.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Sep  3 17:59:23 2026 GMT
+  hsts: false
+domains:
+- domain: antivabio.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
